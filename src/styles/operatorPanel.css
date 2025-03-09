@@ -1,0 +1,50 @@
+
+/* Bus Operator Panel */
+.operator-panel-container {
+    @apply min-h-screen bg-gray-100 p-6;
+  }
+  
+  .operator-panel {
+    @apply max-w-4xl mx-auto bg-white p-8 shadow-lg rounded-lg;
+  }
+  
+  .operator-panel-title {
+    @apply text-3xl font-semibold text-center text-gray-800 mb-8;
+  }
+  
+  .operator-panel-error {
+    @apply mb-6 bg-red-100 text-red-700 p-4 rounded-md;
+  }
+  
+  .operator-panel-spinner {
+    @apply text-center mb-6;
+  }
+  
+  .operator-panel-form {
+    @apply space-y-6 mb-8;
+  }
+  
+  .operator-panel-form-input {
+    @apply w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400;
+  }
+  
+  .operator-panel-form-button {
+    @apply w-full py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400;
+  }
+  
+  .operator-panel-bookings-list {
+    @apply space-y-4;
+  }
+  
+  .operator-panel-booking-item {
+    @apply bg-gray-50 p-4 rounded-md shadow-sm flex justify-between items-center;
+  }
+  
+  .operator-panel-booking-info {
+    @apply text-gray-700;
+  }
+  
+  .operator-panel-booking-details {
+    @apply text-sm text-gray-500;
+  }
+  
