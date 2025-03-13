@@ -4,8 +4,9 @@ import LogoutButton from "./logout";
 
 
 const BookingSystem = () => {
-  
-  const url = "http://localhost:5000";
+
+  // const url = "http://localhost:5000";
+  const url = "https://bus-booking-management-server.vercel.app";
 
   const [schedules, setSchedules] = useState([]);
   const [bookingInfo, setBookingInfo] = useState(null);

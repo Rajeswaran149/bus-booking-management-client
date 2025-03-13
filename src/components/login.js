@@ -3,8 +3,9 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
-  const url = "http://localhost:5000";
-  
+  // const url = "http://localhost:5000";
+  const url = "https://bus-booking-management-server.vercel.app";
+
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");

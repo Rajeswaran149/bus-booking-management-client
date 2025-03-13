@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
 
-  const url = "http://localhost:5000";
+  // const url = "http://localhost:5000";
+  const url = "https://bus-booking-management-server.vercel.app";
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
